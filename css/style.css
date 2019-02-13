@@ -1,0 +1,108 @@
+.stepform:not(.show) {
+    display:none;
+}
+
+.callForm {
+    width:300px;
+    background-color:gray;
+    padding-bottom: 30px;
+}
+
+.callForm h2 {
+    padding:5px 0;
+    font-size:15px;
+    text-align:center;
+    display:block;
+    width:100%;
+    color:#fff;
+    background-color:#000;
+}
+
+.steps {
+    
+}
+
+.steps ul {
+    list-style-type:none;
+}
+
+.steps ul li {
+    display:block;
+    float:left;
+    width:70px;
+    height:35px;
+    background-color:#fff;
+    margin-right:10px;
+    text-align: center;
+    line-height:35px;
+}
+
+p {
+    text-align: center;
+    margin:5px 0;
+} 
+
+form {
+    width:200px;
+    margin:0 auto;
+}
+
+.stepform {
+    width:100%;
+    height:80px;
+}
+
+form input {
+    height:25px;
+    width:100%;
+    margin:5px 0;
+    padding-left: 3px;
+}
+
+::-webkit-input-placeholder {
+    text-align:center;
+}
+::-moz-placeholder {
+    text-align:center;
+}
+:-moz-placeholder {
+    text-align:center;
+}
+
+#courses {
+    width:100%;
+    font-size: 16px;
+    padding:0;
+}
+
+.stepform p {
+    padding-top: 7px;
+    font-size:18px;
+    color:#fff;
+}
+
+a {
+    text-decoration: none;
+    display:block;
+    height:40px;
+    color:#fff;
+    line-height: 40px;
+    text-align: center;
+    width:80%;
+    background-color: red;
+    text-transform: uppercase;
+    margin:15px auto;
+}
+
+.ok {
+    height:135px !important;
+}
+
+.ok p {
+    color:greenyellow;
+    padding-top: 40px;
+}
+
+.clear {
+    clear:both;
+}
